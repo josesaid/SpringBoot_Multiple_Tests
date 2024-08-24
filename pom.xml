@@ -10,9 +10,9 @@
   </parent>
 
   <groupId>com.example</groupId>
-  <artifactId>demo</artifactId>
+  <artifactId>SpringBoot_RestAssured</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>SpringBoot_Demo</name>
+  <name>SpringBoot_RestAssured</name>
   <description>Demo project for Spring Boot</description>
 
   <properties>
@@ -87,6 +87,11 @@
       <groupId>org.junit.vintage</groupId>
       <artifactId>junit-vintage-engine</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+      <version>3.3.0</version>
     </dependency>
 
   </dependencies>
